@@ -9,8 +9,8 @@ function preload() {
 function setup() {
     noCanvas();
     sans = createImg('https://slm-assets2.secondlife.com/assets/12703379/view_large/sans_512.jpg?1446743951');
-    sans.mousePressed(playSound());
-    sans.mouseReleased(stopSound());
+    sans.mousePressed(playSound);
+    sans.mouseReleased(stopSound);
 }
 
 function draw() {
