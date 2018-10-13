@@ -31,4 +31,5 @@ function playSound() {
 
 function stopSound() {
     megalovainia.stop();
+    isPlaying = false;
 }
