@@ -1,0 +1,53 @@
+---
+permalink: justabowloframen/
+---
+
+<html>
+    <head>
+        <title>Just a bowl of ramen!</title>
+        <style>
+            * {
+                background-color: darkorange;
+                overflow: hidden;
+            }
+            
+            .ramen {
+                position: absolute;
+               top: 50%;
+               left: 50%;
+               width: 505px;
+               height: 391px;
+               margin-top: -195.5px; /* Half the height */
+               margin-left: -252.5px; /* Half the width */
+               background: none;
+            }
+            
+            .shine {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 1500px;
+                height: 1500px;
+                margin-top: -750px; /* Half the height */
+                margin-left: -750px; /* Half the width */
+                transform-origin: 50% 50%;
+                animation-name: rotate; 
+                animation-duration: 20s; 
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                transition-duration: 1.5s;
+            }
+            
+            @keyframes rotate {
+                from {transform: rotate(0deg);}
+                to {transform: rotate(360deg);}
+            }
+            
+        </style>
+    </head>
+    <body>
+        <img class="shine" src="https://melbournechapter.net/images/rays-clipart-glow-1.png">
+        <img onclick="" class="ramen" src="https://mbtskoudsalg.com/images/ramen-bowl-png-5.png">
+        
+    </body>
+</html>
