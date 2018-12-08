@@ -14,15 +14,8 @@
     <script type="text/javascript">
     
         // ask user for name with popup prompt    
-        var name = prompt("Enter your chat name:", "Guest");
-        
-        // default name is 'Guest'
-    	if (!name || name === ' ') {
-    	   name = "Guest";	
-    	}
-    	
-    	// strip tags
-    	name = name.replace(/(<([^>]+)>)/ig,"");
+        var name = Math.floor(Math.random() * Math.floor(99999));
+    
     	
     	// display name on page
     	$("#name-area").html("You are: <span>" + name + "</span>");
