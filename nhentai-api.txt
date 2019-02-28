@@ -2,6 +2,8 @@
 permalink: /nhentai-api
 ---
 
+ATTENTION: NHENTAI'S API GATEWAY HAS BEEN SHUT DOWN :( SAD TIMES THIS TUTORIAL WILL NOT WORK
+
 # nhentai API docs
 This is not an official documentation, but I figured it out and though other people might want to use it. This will also be a guide for how to use an API for complete beginners.
 
