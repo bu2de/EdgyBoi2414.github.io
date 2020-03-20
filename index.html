@@ -2,15 +2,37 @@
     <head>
         <title>Edgyboi2414</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+        <style>
+            @keyframes shake {
+                0% { transform: translate(1px, 1px) rotate(0deg); }
+                10% { transform: translate(-1px, -2px) rotate(-1deg); }
+                20% { transform: translate(-3px, 0px) rotate(1deg); }
+                30% { transform: translate(3px, 2px) rotate(0deg); }
+                40% { transform: translate(1px, -1px) rotate(1deg); }
+                50% { transform: translate(-1px, 2px) rotate(-1deg); }
+                60% { transform: translate(-3px, 1px) rotate(0deg); }
+                70% { transform: translate(3px, 1px) rotate(-1deg); }
+                80% { transform: translate(-1px, -1px) rotate(1deg); }
+                90% { transform: translate(1px, 2px) rotate(0deg); }
+                100% { transform: translate(1px, -2px) rotate(-1deg); }
+            }
+
+            #profile:hover {
+                animation: shake 0.5s;
+                animation-iteration-count: infinite;
+            }
+        </style>
     </head>
     <body>
         <br>
         <div class="container text-center">
             <h1>Hi! I'm Edgyboi2414!</h1>
             <p class="lead"><i>The edgiest boi on the block.</i></p>
-            <img src="img.png" class="img rounded-circle">
+            <img id="profile" src="img.png" class="img rounded-circle">
             <br>
             <br>
+            <q><i>Frontend, Backend, I'm totally vers dude!</i></q>
             <p class="lead">Check the stuff I do!</p>
             <a href="https://www.github.com/edgyboi2414"><button class="btn bg-dark"><img src="https://i.imgur.com/2AaBlpf.png" height="40"></button></a>
         </div>
